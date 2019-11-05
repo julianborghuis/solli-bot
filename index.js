@@ -13,7 +13,7 @@ new BananenBase({
     console.log("-/READY\-")
   },
   settings: true,
-  botConfig: __dirname + "/config.json",
+  botConfig: "config.json",
   prefix: "solli!", 
   ignore: { 
     bot: true, 
