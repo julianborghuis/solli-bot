@@ -1,0 +1,12 @@
+{ "botOwners": ["327462385361092621", "592712091249541121"],
+    "guildSettings": {
+      "prefix": "solli!",
+      "embed": { 
+      	"color": "#ff0000" // Rood, 
+        "footerText": "Tom, solli BOT", 
+        "time": true, 
+        "footerImage": "BOTAVATAR"
+      }
+    }
+    
+}
