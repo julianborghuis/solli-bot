@@ -17,14 +17,12 @@ module.exports = class hype extends commands {
   }
 
     async run(msg, args) {
-            let hype = ['https://cdn.discordapp.com/attachments/102817255661772800/219514281136357376/tumblr_nr6ndeEpus1u21ng6o1_540.gif',
-                 'https://cdn.discordapp.com/attachments/102817255661772800/219518372839161859/tumblr_n1h2afSbCu1ttmhgqo1_500.gif',
-                 'https://gfycat.com/HairyFloweryBarebirdbat',
-                 'https://i.imgur.com/PFAQSLA.gif',
-                 'https://abload.de/img/ezgif-32008219442iq0i.gif',
-                 'https://i.imgur.com/vOVwq5o.jpg',
-                 'https://i.imgur.com/Ki12X4j.jpg',
-                 'https://media.giphy.com/media/b1o4elYH8Tqjm/giphy.gif']
+            let hype = ['https://is3-ssl.mzstatic.com/image/thumb/Music128/v4/5e/cf/72/5ecf7249-e692-a809-f102-c7ed3d78427b/source/600x600bb.jpg',
+                 'https://thumbs.gfycat.com/ScentedLameBlackwidowspider-size_restricted.gif',
+                 'https://i.imgur.com/OVbReSh.gif',
+                 'http://www.ghostwhalelondon.com/wp-content/uploads/2019/02/5c5ad7259e42b911d3055365.jpg',
+                 'https://t0.rbxcdn.com/632cfb96c0c6002c08091974c38d82b9',
+                 'https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRfvmjgendf-y0q6QTYDyXbCnW_aOmtVMF5lNTg5op9iS3ODjEo']
          let chosen = Math.floor(Math.random() * Math.floor(hype.length - 1));
          let send = 'CHOO CHOO ${hype[chosen]}'
          await msg.channel.send(send)  
