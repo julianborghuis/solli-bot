@@ -1,13 +1,12 @@
 const commands = require("bananenbase").command;
 
-module.exports = class say extends commands {
+module.exports = class hype extends commands {
   constructor(client) {
     super(client, {
-      name: "say",
-      description: "Let the bot say something",
-      category: "Owner",
-      subCommands: ["s"],
-      args: ["What the bots should say : required"]
+      name: "hype",
+      description: "CHOO CHOO!",
+      category: "fun",
+      subCommands: ["hypee"],
     }, {
       permLevel : 1, 
       permissions: { 

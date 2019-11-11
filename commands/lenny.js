@@ -1,6 +1,6 @@
 const commands = require("bananenbase").command;
 
-module.exports = class say extends commands {
+module.exports = class lenny extends commands {
   constructor(client) {
     super(client, {
       name: "lenny",
