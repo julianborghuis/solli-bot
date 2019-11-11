@@ -8,7 +8,7 @@ module.exports = class hype extends commands {
       category: "fun",
       subCommands: ["hypee"],
     }, {
-      permLevel : 1, 
+      permLevel : 0, 
       permissions: { 
         me: ["SEND_MESSAGES"], 
         user: ["SEND_MESSAGES"] 
