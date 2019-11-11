@@ -1,6 +1,7 @@
 // Requireing the package
 const BananenBase = require("bananenbase");
-
+
+
 new BananenBase({
   token: "TOKEN", 
   database: {
@@ -12,7 +13,7 @@ new BananenBase({
     console.log("-/READY\-")
   },
   settings: true,
-  botConfig: __dirname + "config.json",
+  botConfig: "config.json",
   prefix: "solli!", 
   ignore: { 
     bot: true, 
